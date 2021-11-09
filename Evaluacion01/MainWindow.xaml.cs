@@ -408,6 +408,7 @@ namespace Evaluacion01
                 while (reader.Read())
                 {
                     Console.WriteLine("RESULTADO DEL QUERY " + reader["NOMBRE"].ToString());
+                    //este es un mensaje para probar github
                 }
             }   
             else

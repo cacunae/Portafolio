@@ -1,0 +1,28 @@
+C:\Users\Brandon Bragemann\Desktop\DesarrolloC#\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.csprojAssemblyReference.cache
+C:\Users\Brandon Bragemann\Desktop\DesarrolloC#\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Brandon Bragemann\Desktop\DesarrolloC#\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\Brandon Bragemann\Desktop\DesarrolloC#\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.AssemblyInfo.cs
+C:\Users\Brandon Bragemann\Desktop\DesarrolloC#\OnBreak\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.deps.json
+C:\Users\Brandon Bragemann\Desktop\DesarrolloC#\OnBreak\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.dll
+C:\Users\Brandon Bragemann\Desktop\DesarrolloC#\OnBreak\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.pdb
+C:\Users\Brandon Bragemann\Desktop\DesarrolloC#\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.dll
+C:\Users\Brandon Bragemann\Desktop\DesarrolloC#\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.pdb
+C:\Users\1660S PcAlberta\OneDrive\Escritorio\OnBreak\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.deps.json
+C:\Users\1660S PcAlberta\OneDrive\Escritorio\OnBreak\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.dll
+C:\Users\1660S PcAlberta\OneDrive\Escritorio\OnBreak\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.pdb
+C:\Users\1660S PcAlberta\OneDrive\Escritorio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\1660S PcAlberta\OneDrive\Escritorio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\1660S PcAlberta\OneDrive\Escritorio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.AssemblyInfo.cs
+C:\Users\1660S PcAlberta\OneDrive\Escritorio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\1660S PcAlberta\OneDrive\Escritorio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.dll
+C:\Users\1660S PcAlberta\OneDrive\Escritorio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.pdb
+D:\Workshops\portafolio\OnBreak\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.deps.json
+D:\Workshops\portafolio\OnBreak\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.dll
+D:\Workshops\portafolio\OnBreak\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.pdb
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.csproj.AssemblyReference.cache
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.AssemblyInfoInputs.cache
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.AssemblyInfo.cs
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.csproj.CoreCompileInputs.cache
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.dll
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.pdb

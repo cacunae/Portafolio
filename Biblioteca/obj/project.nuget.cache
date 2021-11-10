@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6tsrxykwgY1ua/WQI+7/esFEgOZsiGmrUi6Ky3ioCdBueh6VtGtDS5IZpXlFbrWaPhft39qczkj7PhczIZOg6g==",
+  "success": true,
+  "projectFilePath": "D:\\Workshops\\portafolio\\PortafolioMaipoGrande\\Biblioteca\\Biblioteca.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nakar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\nakar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

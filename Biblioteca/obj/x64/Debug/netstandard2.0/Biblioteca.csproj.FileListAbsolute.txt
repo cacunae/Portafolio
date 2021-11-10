@@ -1,0 +1,10 @@
+D:\Workshops\portafolio\OnBreak\Biblioteca\bin\x64\Debug\netstandard2.0\Biblioteca.deps.json
+D:\Workshops\portafolio\OnBreak\Biblioteca\bin\x64\Debug\netstandard2.0\Biblioteca.dll
+D:\Workshops\portafolio\OnBreak\Biblioteca\bin\x64\Debug\netstandard2.0\Biblioteca.pdb
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\x64\Debug\netstandard2.0\Biblioteca.csproj.AssemblyReference.cache
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\x64\Debug\netstandard2.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\x64\Debug\netstandard2.0\Biblioteca.AssemblyInfoInputs.cache
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\x64\Debug\netstandard2.0\Biblioteca.AssemblyInfo.cs
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\x64\Debug\netstandard2.0\Biblioteca.csproj.CoreCompileInputs.cache
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\x64\Debug\netstandard2.0\Biblioteca.dll
+D:\Workshops\portafolio\OnBreak\Biblioteca\obj\x64\Debug\netstandard2.0\Biblioteca.pdb

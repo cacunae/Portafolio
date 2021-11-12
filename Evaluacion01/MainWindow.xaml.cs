@@ -42,10 +42,7 @@ namespace Evaluacion01
 
 
 
-        private void Tile_Click(object sender, RoutedEventArgs e)
-        {
 
-        }
 
        
 
@@ -275,14 +272,9 @@ namespace Evaluacion01
                 else
                 {
                     Contrato contrato = new Contrato();
-                    contrato.Creacion = txt_creacion.Text;
-                    contrato.Termino = txt_termino.Text;
-                    contrato.hInicio = txt_horaInicio.Text;
-                    contrato.hTermino = txt_horaTermino.Text;
-                    contrato.Direccion = txt_direccion1.Text;
-                    contrato.Vigente = txt_vigente.Text;
-                    contrato.Observacion = txt_observaciones.Text;
-                    contrato.tipo = cbo_tipo1.SelectedItem.ToString();
+                    contrato.inicio = txt_creacion.Text;
+                    contrato.fin = txt_termino.Text;
+                    contrato.descripcion = txt_observaciones.Text;
                     DateTime Hoy = DateTime.Today;
                     DateTime Hora = DateTime.Now;
                     //txtHora.Text = DateTime.Now.ToString("hh:mm") ;
@@ -290,9 +282,9 @@ namespace Evaluacion01
 
                     string fecha_actual = Hoy.ToString("yyyyMMdd");
                     string hora_actual = Hora.ToString("hhmm");
-                    contrato.NContrato = fecha_actual+hora_actual ;
+                    //contrato.NContrato = fecha_actual+hora_actual ;
                     ContratoCollecion.RegistrarContrato(contrato);
-                    txt_num.Text = contrato.NContrato;
+                    txt_num.Text = contrato.idd;
                     await this.ShowMessageAsync("Exito...!", "Datos guardados correctamente");
 
                 }
@@ -328,7 +320,7 @@ namespace Evaluacion01
                 Contrato contrato = new Contrato();
                 contrato = ContratoCollecion.BuscarContrato(txt_num.Text);
 
-                if (contrato.NContrato == "")
+                if (contrato.idd == "")
                 {
                     await this.ShowMessageAsync("Error...!", "Datos no encontrados correctamente");
                     vaciar();
@@ -336,14 +328,10 @@ namespace Evaluacion01
                 }
                 else
                 {
-                    txt_num.Text = contrato.NContrato;
-                    txt_creacion.Text = contrato.Creacion;
-                    txt_termino.Text = contrato.Termino;
-                    txt_horaInicio.Text = contrato.hInicio;
-                    txt_horaTermino.Text = contrato.hTermino;
-                    txt_direccion1.Text = contrato.Direccion;
-                    txt_vigente.Text = contrato.Vigente;
-                    txt_observaciones.Text = contrato.Observacion;
+                    txt_num.Text = contrato.idd;
+                    txt_observaciones.Text = contrato.descripcion;
+                    txt_creacion.Text = contrato.inicio;
+                    txt_termino.Text = contrato.fin;
                     await this.ShowMessageAsync("Exito...!", "Datos encontrados correctamente");
                 }
             }

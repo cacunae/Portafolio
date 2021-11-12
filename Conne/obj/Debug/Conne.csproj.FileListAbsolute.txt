@@ -1,0 +1,5 @@
+D:\Workshops\portafolio\PortafolioMaipoGrande\Conne\obj\Debug\Conne.csproj.AssemblyReference.cache
+D:\Workshops\portafolio\PortafolioMaipoGrande\Conne\obj\Debug\Conne.Form1.resources
+D:\Workshops\portafolio\PortafolioMaipoGrande\Conne\obj\Debug\Conne.Properties.Resources.resources
+D:\Workshops\portafolio\PortafolioMaipoGrande\Conne\obj\Debug\Conne.csproj.GenerateResource.cache
+D:\Workshops\portafolio\PortafolioMaipoGrande\Conne\obj\Debug\Conne.csproj.CoreCompileInputs.cache

@@ -30,6 +30,10 @@ namespace Biblioteca
 
     }
 
-
+    public enum Estado
+    {
+        vigente,
+        vencido
+    }
 
 }

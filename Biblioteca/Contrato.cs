@@ -17,33 +17,31 @@ namespace Biblioteca
 
         private void Init()
         {
-            NContrato = string.Empty;
-            Creacion = string.Empty;
-            Termino = string.Empty;
-            hInicio = string.Empty;
-            hTermino = string.Empty;
-            Direccion = string.Empty;
-            Vigente = string.Empty;
-            tipo = string.Empty;
-            Observacion = string.Empty;
-            rutc = string.Empty;
+            idd = string.Empty;
+            descripcion = string.Empty;
+            inicio = string.Empty;
+            fin = string.Empty;
+            estado = 0;
         }
 
-        public string rutc { get; set; }
-        public string NContrato { get; set; }
-        public string Creacion { get; set; }
-        public string Termino { get; set; }
-        public string hInicio { get; set; }
-        public string hTermino { get; set; }
-        public string Direccion { get; set; }
-        public string Vigente { get; set; }
-        public string tipo { get; set; }
-        public string Observacion { get; set; }
+        public string idd { get; set; }
 
-        public string InformacionCliente()
+        public string descripcion { get; set; }
+
+        public string inicio { get; set; }
+        public string fin { get; set; }
+
+        public int estado { get; set; }
+
+        public string InformacionContrato()
         {
             StringBuilder sb = new StringBuilder();
-           
+
+            sb.Append("ID: " + idd);
+            sb.Append("Descripción: " + descripcion);
+            sb.Append("inicio :" + inicio);
+            sb.Append("fin: " + fin);
+            sb.Append("estado: " + estado);
 
             return sb.ToString();
 

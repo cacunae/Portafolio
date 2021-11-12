@@ -26,3 +26,12 @@ D:\Workshops\portafolio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.A
 D:\Workshops\portafolio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.csproj.CoreCompileInputs.cache
 D:\Workshops\portafolio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.dll
 D:\Workshops\portafolio\OnBreak\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.pdb
+D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.AssemblyInfoInputs.cache
+D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.AssemblyInfo.cs
+D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.csproj.CoreCompileInputs.cache
+D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.dll
+D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.pdb
+D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.deps.json
+D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.dll
+D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.pdb

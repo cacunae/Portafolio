@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Evaluacion01"
         xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="Evaluacion01.listadoContrato"
         mc:Ignorable="d"
-        Title="listadoContrato" Height="450" Width="800">
+        Title="Contratos" Height="450" Width="800">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="Imagenes/evento.jpg"/>
@@ -19,19 +19,13 @@
                 </LinearGradientBrush>
             </DataGrid.Background>
         </DataGrid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="80,101,0,0" VerticalAlignment="Top" Width="75" Height="79" Click="Button_Click">
+        <Button  HorizontalAlignment="Left" Margin="80,101,0,0" VerticalAlignment="Top" Width="75" Height="79" Click="Button_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Imagenes/relog.png"/>
             </Button.Background>
         </Button>
-
-        <TextBox x:Name="txt_crut" mah:TextBoxHelper.ClearTextButton="True" mah:TextBoxHelper.Watermark="Rut Del Cliente" RenderTransformOrigin="0.464,-0.808" Margin="585,101,39,292"/>
-        <TextBox x:Name="txt_cnum" mah:TextBoxHelper.ClearTextButton="True" mah:TextBoxHelper.Watermark="Numero De Contrato" RenderTransformOrigin="0.464,-0.808" Margin="377,101,247,292"/>
-        <TextBox x:Name="txt_ctipo" mah:TextBoxHelper.ClearTextButton="True" mah:TextBoxHelper.Watermark="Tipo De Contrato" RenderTransformOrigin="0.464,-0.808" Margin="175,101,449,292"/>
-        <Button Content="filtrar" HorizontalAlignment="Left" Margin="175,132,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
-        <Button Content="filtrar" HorizontalAlignment="Left" Margin="377,132,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.707,-0.724"/>
-        <Button Content="filtrar" HorizontalAlignment="Left" Margin="585,132,0,0" VerticalAlignment="Top" Width="75"/>
-        <Image HorizontalAlignment="Left" Height="54" Margin="717,10,0,0" VerticalAlignment="Top" Width="65" Source="Imagenes/dark_logo_white_background.jpg"/>
+        <Button x:Name="btnFiltrar" Content="filtrar" HorizontalAlignment="Left" Margin="175,132,0,0" VerticalAlignment="Top" Width="75" Click="btnFiltrar_Click"/>
+        <ComboBox x:Name="cbEstado"  HorizontalAlignment="Left" Margin="175,101,0,0" VerticalAlignment="Top" Width="120" />
 
     </Grid>
 </Window>

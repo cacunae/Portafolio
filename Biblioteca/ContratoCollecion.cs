@@ -26,7 +26,7 @@ namespace Biblioteca
             //var detecta tipo cliente
             foreach (var item in lista)
             {
-                if (item.NContrato.Equals(cod))
+                if (item.idd.Equals(cod))
                 {
                     contrato = item;
                     break;
@@ -44,7 +44,7 @@ namespace Biblioteca
             Contrato contrato = new Contrato();
             foreach (var objeto in lista)
             {
-                if (objeto.NContrato.Equals(cod))
+                if (objeto.idd.Equals(cod))
                 {
                     contrato = objeto;
                     elimino = true;
@@ -66,7 +66,7 @@ namespace Biblioteca
            
             foreach (var item in lista)
             {
-                if (item.NContrato.Equals(contrato.NContrato))
+                if (item.idd.Equals(contrato.idd))
                 {
                     lista.Remove(item);
                     lista.Add(contrato);

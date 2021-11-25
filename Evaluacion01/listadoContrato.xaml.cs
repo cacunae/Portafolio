@@ -60,15 +60,9 @@ namespace Evaluacion01
             gridcontrato.ItemsSource = listaContratos;
             conn.Close();
 
-            
-
-            
-
-
 
         }
-
-
+        // este es un cambio poara github
         private void btnFiltrar_Click(object sender, RoutedEventArgs e)
         {
             if (cbEstado.SelectedItem.ToString() == "vigente")

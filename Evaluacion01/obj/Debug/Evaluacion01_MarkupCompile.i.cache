@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Workshops\portafolio\PortafolioMaipoGrande\Evaluacion01\obj\x64\Release\
+D:\Workshops\portafolio\PortafolioMaipoGrande\Evaluacion01\obj\Debug\
 Evaluacion01
 none
 false
-TRACE
+DEBUG;TRACE
 D:\Workshops\portafolio\PortafolioMaipoGrande\Evaluacion01\App.xaml
 5-1119646552
 1-1950971391
-7-1726749004
-124-824212050
+8-758821943
+1241842666095
 listadoCliente.xaml;listadoContrato.xaml;MainWindow.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;
 
-True
+False
 

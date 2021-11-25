@@ -43,7 +43,7 @@
         </Grid.ColumnDefinitions>
         <Image Height="64" Margin="84,68,10,0" VerticalAlignment="Top" Source="Imagenes/logo_transparent_background.png" Grid.Column="7" Grid.Row="4" Grid.ColumnSpan="3"/>
 
-        <Controls:Flyout x:Name="AgregarCliente1" Margin="-15,-12,0,0" Header="Menu Clientes&#xD;&#xA;&#xA;" RenderTransformOrigin="0.504,0.789" Width="202" Grid.RowSpan="5" Grid.ColumnSpan="3">
+        <Controls:Flyout x:Name="AgregarTransportista" Margin="-10,-12,0,0" Header="Ingresar&#xD;&#xA;Transportista&#xD;&#xA;&#xA;&#xA;" RenderTransformOrigin="0.504,0.789" Width="202" Grid.RowSpan="5" Grid.ColumnSpan="4">
             <Controls:Flyout.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF50DC1B" Offset="0.03"/>
@@ -64,33 +64,26 @@
                     <GradientStop Color="#FF4E9902" Offset="0.433"/>
                 </LinearGradientBrush>
             </Controls:Flyout.OpacityMask>
-            <Canvas Height="355" Width="278">
+            <Canvas Height="259" Margin="0,0,13,0" RenderTransformOrigin="0.5,0.5">
+                <Canvas.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="0.107"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0.331"/>
+                    </TransformGroup>
+                </Canvas.RenderTransform>
 
-                <TextBox x:Name="txt_rut" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese su RUT" Width="168" TextChanged="Txt_rut_TextChanged" Canvas.Top="21"/>
+                <TextBox x:Name="txt_nombre" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese su nombre" Width="168"/>
 
-                <TextBox x:Name="txt_nombre" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese su nombre" Width="168" Canvas.Top="81">
+                <TextBox x:Name="txt_mail" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese su mail" Width="168" Canvas.Top="31"/>
 
-                </TextBox>
-
-                <TextBox x:Name="txt_mail" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese su mail" Width="168" Canvas.Top="112">
-
-                </TextBox>
-
-                <TextBox x:Name="txt_direccion" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese su direccion" Width="168" Canvas.Top="143">
-
-                </TextBox>
-
-                <TextBox x:Name="txt_telefono" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese su telefono" Width="168" Canvas.Top="174">
-
-                </TextBox>
-                <Button x:Name="B_Agregar" Canvas.Left="10" Canvas.Top="52" Height="24" Width="43" Click="B_Agregar_Click" Content="A&#xA;" RenderTransformOrigin="0.535,1.417" />
-                <TextBox x:Name="txt_razon" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese su razon social" Width="168" Canvas.Top="267"/>
-                <ComboBox x:Name="cbo_tipo" Canvas.Top="205" Width="168" Canvas.Left="10"/>
-                <ComboBox x:Name="cbo_actividad" Canvas.Left="10" Canvas.Top="236" Width="168"/>
-                <Button x:Name="B_buscar" Canvas.Left="61" Canvas.Top="52" Height="24" Width="43" Content="B" Click="B_buscar_Click" RenderTransformOrigin="0.163,0.542" />
-                <Button x:Name="B_eliminar" Canvas.Left="109" Canvas.Top="52" Height="24" Width="43" Content="E" Click="B_eliminar_Click" RenderTransformOrigin="0.14,0.542" />
-                <TextBox x:Name="txt_box" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="" Width="142" TextChanged="Txt_rut_TextChanged" Canvas.Top="-56" Height="72" Background="White"/>
-                <Button x:Name="B_refrescar" Canvas.Left="157" Canvas.Top="52" Height="24" Width="43" Content="R" Click="B_refrescar_Click" />
+                <TextBox x:Name="txt_telefono" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese su telefono" Width="168" Canvas.Top="62"/>
+                <TextBox x:Name="txt_razon" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Años de experiencia" Width="168" Canvas.Top="93"/>
+                <ComboBox x:Name="cbo_tipoTransporte" Canvas.Top="155" Width="168" Canvas.Left="10" Controls:TextBoxHelper.Watermark="Tipo Transporte"/>
+                <ComboBox x:Name="cbo_tipoLicencia" Canvas.Left="10" Canvas.Top="186" Width="168" Controls:TextBoxHelper.Watermark="Tipo Licencia"/>
+                <ComboBox x:Name="cbo_Origen" Canvas.Top="124" Width="168" Canvas.Left="10" Controls:TextBoxHelper.Watermark="Origen"/>
+                <Button Content="Agregar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Canvas.Left="61" Canvas.Top="224"/>
 
 
             </Canvas>
@@ -98,31 +91,12 @@
         </Controls:Flyout>
 
 
-        <Controls:Tile x:Name="agregarContratos" Margin="8,-45,65,83" Width="Auto" Background="{x:Null}" Height="Auto" Click="AgregarContratos_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="6" Grid.RowSpan="2">
-            <Controls:Tile.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.041"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Controls:Tile.RenderTransform>
-        </Controls:Tile>
-        <Controls:Tile x:Name="CalcularContrato" Margin="110,3,50,-3" Width="Auto" Height="Auto" Click="CalcularContrato_Click" Grid.Row="4" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Grid.ColumnSpan="4" Grid.Column="2">
-            <Controls:Tile.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.104"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Controls:Tile.RenderTransform>
-        </Controls:Tile>
-        <Controls:Tile x:Name="Salir1" Grid.Column="6" Margin="28,28,81,35" Width="Auto" Height="Auto" Title="" Click="Salir1_Click" Grid.Row="4">
+        
+        <Controls:Tile x:Name="Salir1" Grid.Column="6" Margin="26,32,83,30" Width="Auto" Height="Auto" Title="" Click="Salir1_Click" Grid.Row="4">
             <Controls:Tile.Background>
                 <ImageBrush/>
             </Controls:Tile.Background>
-            <Image x:Name="Salir" Source="Imagenes/salir.png" RenderTransformOrigin="0.55,0.483" Width="74" Height="67" AutomationProperties.Name="salir" AutomationProperties.IsOffscreenBehavior="FromClip">
+            <Image x:Name="Salir" Source="Imagenes/salir.png" RenderTransformOrigin="0.55,0.483" Width="70" Height="60" AutomationProperties.Name="salir" AutomationProperties.IsOffscreenBehavior="FromClip">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -133,92 +107,17 @@
                 </Image.RenderTransform>
             </Image>
         </Controls:Tile>
-        <Controls:Tile x:Name="Usuarios" Margin="110,-40,20,78" Width="Auto" Background="{x:Null}" Height="Auto" Title="" Click="Usuarios_Click_1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="4" Grid.Column="2" Grid.RowSpan="2">
-            <Controls:Tile.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-0.547"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Controls:Tile.RenderTransform>
-        </Controls:Tile>
-        <Controls:Tile Margin="28,70,80,10" Width="Auto" Background="{x:Null}" Height="Auto" Grid.Column="6" Click="Tile_Click_1" Grid.Row="1">
-            <Image x:Name="lista" Source="Imagenes/documentl.png" RenderTransformOrigin="0.064,0.789" Width="86" Height="100" AutomationProperties.Name="Lista">
-                <Image.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform AngleY="-0.76"/>
-                        <RotateTransform Angle="0.362"/>
-                        <TranslateTransform X="-0.406" Y="-0.951"/>
-                    </TransformGroup>
-                </Image.RenderTransform>
-            </Image>
-        </Controls:Tile>
-        <Controls:Flyout x:Name="CalculoValor" Grid.Column="8" Margin="21,-8,0,0" Header="VALOR &#xD;&#xA;CONTRATO&#xD;&#xA;" Width="178" Grid.RowSpan="3" Grid.ColumnSpan="2">
-            <Controls:Flyout.Background>
-                <ImageBrush ImageSource="123.png"/>
-            </Controls:Flyout.Background>
-            <Controls:Flyout.OpacityMask>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="White" Offset="1"/>
-                    <GradientStop Color="#FFEE5E5E" Offset="0.857"/>
-                    <GradientStop Color="#FF4E9902" Offset="0.433"/>
-                </LinearGradientBrush>
-            </Controls:Flyout.OpacityMask>
-            <Canvas Height="355" Width="278">
-
-                <TextBox x:Name="txt_asistentes" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Cantidad De Asistentes" Width="168"/>
-
-                <TextBox x:Name="txt_personalA" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Cantidad Personal" Width="168" Canvas.Top="31"/>
-
-                <TextBox x:Name="txt_total" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Total" Width="168" Canvas.Top="127"/>
-                <Button x:Name="B_calcular" Canvas.Top="83" Height="24" Width="168" Content="CALCULAR" RenderTransformOrigin="0.14,0.542" Click="B_calcular_Click" />
-
-
-            </Canvas>
-
-        </Controls:Flyout>
-        <Controls:Flyout x:Name="AgregarContrato" Margin="24,-12,0,0" Header="Contratos&#xD;&#xA;&#xA;" Grid.Column="8" Width="178" Grid.RowSpan="5" Grid.ColumnSpan="2">
-            <Controls:Flyout.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFFF0C0C" Offset="1"/>
-                    <GradientStop Color="#FFD4FD1A"/>
-                </LinearGradientBrush>
-            </Controls:Flyout.Background>
-            <Controls:Flyout.OpacityMask>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="White" Offset="1"/>
-                    <GradientStop Color="#FFEE5E5E" Offset="0.857"/>
-                    <GradientStop Color="#FF4E9902" Offset="0.433"/>
-                </LinearGradientBrush>
-            </Controls:Flyout.OpacityMask>
-            <Canvas Height="355" Width="278">
-
-                <TextBox x:Name="txt_num" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Contrato" Width="168" TextChanged="Txt_rut_TextChanged" Canvas.Top="21"/>
-
-                <TextBox x:Name="txt_creacion" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Creacion" Width="168" Canvas.Top="57" RenderTransformOrigin="0.464,-0.808"/>
-
-                <TextBox x:Name="txt_termino" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Termino" Width="168" Canvas.Top="83"/>
-
-                <TextBox x:Name="txt_horaInicio" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Fecha Hora Inicio" Width="168" Canvas.Top="123"/>
-
-                <TextBox x:Name="txt_horaTermino" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Fecha Hora Termino" Width="168" Canvas.Top="154"/>
-                <ComboBox x:Name="cbo_tipo1" Canvas.Top="185" Width="168" Canvas.Left="10" SelectionChanged="cbo_tipo1_SelectionChanged"/>
-                <TextBox x:Name="txt_vigente" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Vigente" Width="168" Canvas.Top="247"/>
-                <TextBox x:Name="txt_observaciones" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="observaciones" Width="168" Canvas.Top="278"/>
-                <Button x:Name="B_AgregarContrato" Canvas.Left="10" Canvas.Top="-38" Height="24" Width="43" Click="B_AgregarC_Click" Content="A&#xA;" RenderTransformOrigin="0.535,1.417" />
-                <Button x:Name="B_BuscarC" Canvas.Left="79" Canvas.Top="-38" Height="24" Width="43" Click="B_BuscarC_Click" Content="B" RenderTransformOrigin="0.535,1.417" />
-                <TextBox x:Name="txt_direccion1" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Direccion" Width="168" Canvas.Top="216"/>
-                <TextBox x:Name="txt_cliente" Canvas.Left="10" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Contrato" Width="168" TextChanged="Txt_rut_TextChanged" Canvas.Top="-9" Text="&#xD;&#xA; " Height="25"/>
-
-
-            </Canvas>
-
-        </Controls:Flyout>
+        
+        <Button x:Name="btnContratos" Content="" Grid.Column="7" HorizontalAlignment="Left" Margin="10,32,0,0" Grid.Row="4" VerticalAlignment="Top" Width="86" Click="btnContratos_Click" Height="65">
+            <Button.Background>
+                <ImageBrush ImageSource="Imagenes/imagen 2.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnTransportista" Content="" Grid.Column="4" HorizontalAlignment="Left" Margin="35,32,0,0" Grid.Row="4" VerticalAlignment="Top" Width="86" Click="btnTransportista_Click" Height="65" Grid.ColumnSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="Imagenes/camions.png"/>
+            </Button.Background>
+        </Button>
         <!-- <Controls:Tile x:Name="ListadoCliente" Margin="214,10,5,16" Width="Auto" Background="{x:Null}" Height="Auto" Grid.ColumnSpan="2" Grid.Column="6" Grid.Row="4" Click="ListadoCliente_Click">
             <Image x:Name="lista1" Source="Imagenes/userL.png" RenderTransformOrigin="0.064,0.789" Width="86" Height="100" AutomationProperties.Name="Lista">
                 <Image.RenderTransform>

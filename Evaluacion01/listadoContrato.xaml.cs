@@ -26,6 +26,12 @@ namespace Evaluacion01
         }
 
 
+        private void Salir1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+
 
 
         private void Button_Click(object sender, RoutedEventArgs e)

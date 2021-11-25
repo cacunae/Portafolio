@@ -5,35 +5,30 @@ using System.Text;
 namespace Biblioteca
 {
 
-    public enum ActividadEmpresa
-    {
-        agropecuaria,
-        minera,
-        manofactura,
-        comercio,
-        hotelerias,
-        alimentos,
-        transporte,
-        servicios
-
-    }
-
-
-
-    public enum TipoEmpresa
-    {
-        spa,
-        eirl,
-        limitada,
-        sociedadAnonima
-
-
-    }
-
     public enum Estado
     {
-        vigente,
-        vencido
+        Vigente,
+        Vencido
+    }
+
+    public enum Origen
+    {
+        Nacional,
+        Internacional
+    }
+
+    public enum Transporte
+    {
+        Maritimo,
+        Aereo,
+        Terrestre
+    }
+
+    public enum Licencia
+    {
+        Clase_A,
+        Clase_B,
+        Clase_C
     }
 
 }

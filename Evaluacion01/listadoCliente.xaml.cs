@@ -22,42 +22,5 @@ namespace Evaluacion01
     public partial class listadoCliente : Window
     {
 
-
-        public listadoCliente()
-
-
-        {
-            
-            InitializeComponent();
-            cbo_act.ItemsSource = Enum.GetValues(typeof(ActividadEmpresa));
-            cbo_tipo.ItemsSource = Enum.GetValues(typeof(TipoEmpresa));
-
-
-        }
-
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            gridCliente.ItemsSource = ClienteColeccion.lista;
-
-        }
-
-        private void Filtrar_Click(object sender, RoutedEventArgs e)
-        {
-
-
-           
-
-        }
-
-        private void Cbo_tipo_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-           
-        }
-
-        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
     }
 }

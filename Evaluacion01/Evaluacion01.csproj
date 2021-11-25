@@ -193,8 +193,14 @@
     <Resource Include="Imagenes\Image2.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Imagenes\camions.png" />
+    <Resource Include="Imagenes\outline_local_shipping_white_24dp.png" />
+    <Resource Include="Imagenes\fondo frutas.jpg" />
+    <Resource Include="Imagenes\imagen 2.png" />
+    <Resource Include="Imagenes\outline_description_white_24dp.png" />
     <Resource Include="123.png" />
     <Resource Include="123.jpg" />
+    <Resource Include="imagen 2.png" />
     <Content Include="Imagenes\123.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

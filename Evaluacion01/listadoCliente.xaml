@@ -15,7 +15,8 @@
             <ImageBrush ImageSource="Imagenes/evento.jpg"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="140*"/>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="124*"/>
             <ColumnDefinition Width="40*"/>
             <ColumnDefinition Width="50*"/>
             <ColumnDefinition Width="115*"/>
@@ -26,7 +27,7 @@
             <ColumnDefinition Width="260*"/>
             <ColumnDefinition Width="102*"/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="gridCliente" HorizontalAlignment="Left" Height="185" VerticalAlignment="Top" Width="640" Margin="80,170,0,0" Grid.ColumnSpan="10" SelectionChanged="DataGrid_SelectionChanged">
+        <DataGrid x:Name="gridCliente" HorizontalAlignment="Left" Height="185" VerticalAlignment="Top" Width="640" Margin="64.435,170,0,0" Grid.ColumnSpan="10" Grid.Column="1">
             <DataGrid.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -34,12 +35,12 @@
                 </LinearGradientBrush>
             </DataGrid.Background>
         </DataGrid>
-        <Button x:Name="gridActualizar" Content="" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Width="120" Height="100" Click="Button_Click" Grid.ColumnSpan="3">
+        <Button x:Name="gridActualizar" Content="" HorizontalAlignment="Left" Margin="64.435,40,0,0" VerticalAlignment="Top" Width="120" Height="100" Grid.ColumnSpan="3" Grid.Column="1">
             <Button.Background>
                 <ImageBrush ImageSource="Imagenes/relog.png"/>
             </Button.Background>
         </Button>
-        <TextBox x:Name="txtfiltroc" HorizontalAlignment="Left" Height="34" Margin="80,375,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="640" Grid.ColumnSpan="10" Grid.RowSpan="2">
+        <TextBox x:Name="txtfiltroc" HorizontalAlignment="Left" Height="34" Margin="64.435,375,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="640" Grid.ColumnSpan="10" Grid.RowSpan="2" Grid.Column="1">
             <TextBox.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -47,9 +48,9 @@
                 </LinearGradientBrush>
             </TextBox.Background>
         </TextBox>
-        <ComboBox x:Name="cbo_tipo" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.417,0.577" Height="100" SelectionChanged="Cbo_tipo_SelectionChanged" Grid.Column="3" Grid.ColumnSpan="2"/>
-        <ComboBox x:Name="cbo_act" Grid.Column="7" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="105" Height="100" Grid.ColumnSpan="2"/>
-        
+        <ComboBox x:Name="cbo_tipo" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.417,0.577" Height="100" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <ComboBox x:Name="cbo_act" Grid.Column="8" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="105" Height="100" Grid.ColumnSpan="2"/>
+
 
     </Grid>
 </Window>

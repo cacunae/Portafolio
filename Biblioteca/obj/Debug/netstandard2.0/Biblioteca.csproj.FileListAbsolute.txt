@@ -35,3 +35,4 @@ D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\obj\Debug\netstandard2.
 D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.deps.json
 D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.dll
 D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.pdb
+D:\Workshops\portafolio\PortafolioMaipoGrande\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.csproj.AssemblyReference.cache
